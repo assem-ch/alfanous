@@ -1,4 +1,3 @@
-
 =================
 What is Alfanous?
 =================
@@ -22,8 +21,8 @@ Alfanous understands the complex nature of the Arabic language and thus offers e
 ------------
 Build Status
 ------------
-.. image:: https://travis-ci.org/Alfanous-team/alfanous.png?branch=master
-        :target: https://travis-ci.org/Alfanous-team/alfanous
+.. image:: https://travis-ci.org/lambdaX/alfanous.png?branch=master
+        :target: https://travis-ci.org/AlambdaX/alfanous
 
 --------
 Contacts
