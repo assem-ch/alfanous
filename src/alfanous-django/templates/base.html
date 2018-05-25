@@ -305,8 +305,9 @@
                             </div>
                             {% if current.unit == "aya" %}
 				            {% block options %}{% endblock %}
-                                <fieldset class="">
 
+                                <fieldset class="well hidden-phone">
+                                                <legend><i class="icon-cog"></i> {{ _("Options") }}</legend>
                                                 {% block views_panel %}{% endblock %}
                                                 {% block sortedby_panel %}{% endblock %}
                                                 {% block translations_panel %}{% endblock %}
@@ -329,9 +330,7 @@
                                 <div class="row slidingForm well well-small tabbable tabs-{{ bidi.align }}">
                                 <ul id="advanced_search_panel" class="nav nav-tabs text-{{ bidi.align }} ">
                                     <li class=""> <a href="#advanced_search_predef" data-toggle="tab"><i class="icon-magic"></i> <span class="hidden-phone" >{{ _("Predefined Queries") }}</span></a></li>
-									  <li class="active">
-									    <a href="#advanced_search_options" data-toggle="tab"><i class="icon-cog"></i> <span class="hidden-phone" >{{ _("Options") }}</span></a>
-									  </li>
+
 									  <li>
 									  		<a href="#advanced_search_advanced_query" data-toggle="tab"><i class="icon-asterisk"></i> <span class="hidden-phone" >{{ _("Advanced Query") }}</span></a>
 									  </li>
