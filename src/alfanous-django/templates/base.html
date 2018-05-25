@@ -287,7 +287,7 @@
                     {% endif %}
                     </a>
                   </h1>
-                        <form class="form-search" id="form" name="form" method="GET" action=".">
+                        <form class="form-search" id="form" name="form" method="GET" action="." onsubmit="$('#form').submit(); return false;">
                             <div class="input-append bootstro text-right"
                                 data-bootstro-title="{{ _('Alfanous is smart!') }}"
                                 data-bootstro-content="{{ _('Just start typing here! but wait... <strong>Did you know?</strong> Alfanous isn\'t just a typical search function, you can do a lot using operators like: <code>+</code>, <code>-</code>, <code>|</code> and a lot more!') }}"
@@ -297,7 +297,7 @@
 		                                data-source=""
 		                                />
 
-		                                <button type="submit" class="btn btn-success search-query" onclick="$('#form').submit(); return false;">
+		                                <button type="submit" class="btn btn-success search-query">
 		                                    <i class="icon-search"></i>
 		                                    <span class="hidden-phone">{{ _("Quick search") }}</span>
 		                                </button>
