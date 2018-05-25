@@ -315,6 +315,12 @@
                                         <i class="icon-cog"></i> {{ _("Options") }} [+]
                                     </a>
                                 </div>
+                                <div class="advanced-search text-center" data-toggle="tooltip">
+                                    <a class="text-center show_hide">
+                                        <i class="icon-wrench"></i>
+                                        {{ _("Advanced Search") }} [+]
+                                    </a>
+                                </div>
 
                             <div class="row slidingFormOptions well well-small  ">
                                 <fieldset id="options_panel" class=" ">
@@ -327,16 +333,11 @@
                             {% endif %}
                         </form>
                         {% if current.unit == "aya" %}
-                            <div class="advanced-search text-center" data-toggle="tooltip">
-                                    <a class="text-center show_hide">
-                                        <i class="icon-wrench"></i>
-                                        {{ _("Advanced Search") }} [+]
-                                    </a>
-                                </div>
+
 
                                 <div class="row slidingForm well well-small tabbable tabs-{{ bidi.align }}">
                                 <ul id="advanced_search_panel" class="nav nav-tabs text-{{ bidi.align }} ">
-                                    <li class=""> <a href="#advanced_search_predef" data-toggle="tab"><i class="icon-magic"></i> <span class="hidden-phone" >{{ _("Predefined Queries") }}</span></a></li>
+                                    <li class="active"> <a href="#advanced_search_predef" data-toggle="tab"><i class="icon-magic"></i> <span class="hidden-phone" >{{ _("Predefined Queries") }}</span></a></li>
 
 									  <li>
 									  		<a href="#advanced_search_advanced_query" data-toggle="tab"><i class="icon-asterisk"></i> <span class="hidden-phone" >{{ _("Advanced Query") }}</span></a>
