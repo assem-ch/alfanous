@@ -19,10 +19,12 @@ $(document).ready(function(){
             }
         });
     });
+    	$(".slidingFormOptions").hide();
+
         $('.show_hide_options').click(function(){
         $(".slidingFormOptions").slideToggle(function() {
             var text = $('.show_hide_options').html();
-            if($('.slidingForm').is(":visible")){
+            if($('.slidingFormOptions').is(":visible")){
                 $('.show_hide_options').html(text.replace('+', '-'));
             }
             else {

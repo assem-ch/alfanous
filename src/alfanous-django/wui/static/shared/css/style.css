@@ -82,10 +82,10 @@ span.label a:hover {
   /* color: #4765B6; */
 } 
 
-.slidingForm {
+.slidingForm, .slidingFormOptions {
   margin-top: 5%;
 }
-.slidingForm, .aya_details{
+.slidingForm, .slidingFormOptions, .aya_details{
     display:none;
 }
 
