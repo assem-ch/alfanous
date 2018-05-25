@@ -304,8 +304,18 @@
 
                             </div>
                             {% if current.unit == "aya" %}
-				{% block options %}{% endblock %}
-                                <div class="advanced-search text-center bootstro" data-toggle="tooltip"
+				            {% block options %}{% endblock %}
+                                <fieldset class="">
+
+                                                {% block views_panel %}{% endblock %}
+                                                {% block sortedby_panel %}{% endblock %}
+                                                {% block translations_panel %}{% endblock %}
+                                                {% block recitations_panel %} {% endblock %}
+                                </fieldset>
+                            {% endif %}
+                        </form>
+                        {% if current.unit == "aya" %}
+                            <div class="advanced-search text-center bootstro" data-toggle="tooltip"
                                     data-bootstro-title="{{ _('Even more!') }}"
                                 data-bootstro-content="{{ _('You can <strong>sort</strong>, <strong>filter</strong> search reasults or choose a translation, you can as well choose a recitator!') }}"
                                 data-bootstro-width="400px"
@@ -333,45 +343,33 @@
 									  <li class=""><a href="#advanced_search_statistic" data-toggle="tab"><i class="icon-bar-chart"></i> <span class="hidden-phone" >{{ _("Statistical Search") }}</span></a></li>
 									  <li class="hidden"><a href="#advanced_search_misc" data-toggle="tab"><i class="icon-ellipsis-horizontal"></i> <span class="hidden-phone" >{{ _("Miscellaneous") }}</span></a></li>
 									</ul>
-							
+
 									<div class=" tab-content well">
-									  <div class=" tab-pane active" id="advanced_search_options">
-											<fieldset class="">
-                                                
 
-
-                                                {% block views_panel %}{% endblock %}
-                                                {% block sortedby_panel %}{% endblock %}
-                                                {% block translations_panel %}{% endblock %}
-                                                {% block recitations_panel %} {% endblock %}
-                                        	</fieldset>
-
-										</div>
 									  <div class="tab-pane text-{{ bidi.align }}" id="advanced_search_advanced_query">
 
-									  	  {% include 'wui/advanced_search/advanced_query.html' %} 
+									  	  {% include 'wui/advanced_search/advanced_query.html' %}
 									  </div>
 									  <div class="tab-pane text-{{ bidi.align }}" id="advanced_search_linguistic">
-									  	{% include 'wui/advanced_search/linguistic.html' %} 
+									  	{% include 'wui/advanced_search/linguistic.html' %}
 										 </div>
 									  <div class="tab-pane text-{{ bidi.align }}" id="advanced_search_thematic">
-										{% include 'wui/advanced_search/thematic.html' %} 
+										{% include 'wui/advanced_search/thematic.html' %}
 									</div>
 									  <div class="tab-pane text-{{ bidi.align }}" id="advanced_search_structural">
-									  {% include 'wui/advanced_search/structural.html' %} 
-									  </div> 
+									  {% include 'wui/advanced_search/structural.html' %}
+									  </div>
 									  <div class="tab-pane text-{{ bidi.align }}" id="advanced_search_statistic">
-									  	{% include 'wui/advanced_search/statistical.html' %} 
+									  	{% include 'wui/advanced_search/statistical.html' %}
 									  </div>
 									  <div class="tab-pane text-{{ bidi.align }}" id="advanced_search_predef">
-									  	{% include 'wui/advanced_search/predefined_queries.html' %} 
+									  	{% include 'wui/advanced_search/predefined_queries.html' %}
 									  </div>
 									</div>
-                                       
+
 
                                 </div>
-                            {% endif %}
-                        </form>
+                        {% endif %}
                 </div><!--/span4-->
             </div><!--/row-->
         </div>
