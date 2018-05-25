@@ -306,21 +306,28 @@
                             {% if current.unit == "aya" %}
 				            {% block options %}{% endblock %}
 
-                                <fieldset class="well hidden-phone">
-                                                <legend><i class="icon-cog"></i> {{ _("Options") }}</legend>
+                                <div class="options text-center bootstro" data-toggle="tooltip"
+                                    data-bootstro-title="{{ _('Even more!') }}"
+                                data-bootstro-content="{{ _('You can <strong>sort</strong>, <strong>filter</strong> search reasults or choose a translation, you can as well choose a recitator!') }}"
+                                data-bootstro-width="400px"
+                                data-bootstro-placement='top' data-bootstro-step='2'>
+                                    <a class="text-center show_hide_options">
+                                        <i class="icon-cog"></i> {{ _("Options") }} [+]
+                                    </a>
+                                </div>
+
+                            <div class="row slidingFormOptions well well-small  ">
+                                <fieldset id="options_panel" class="well well-small ">
                                                 {% block views_panel %}{% endblock %}
                                                 {% block sortedby_panel %}{% endblock %}
                                                 {% block translations_panel %}{% endblock %}
                                                 {% block recitations_panel %} {% endblock %}
                                 </fieldset>
+                                </div>
                             {% endif %}
                         </form>
                         {% if current.unit == "aya" %}
-                            <div class="advanced-search text-center bootstro" data-toggle="tooltip"
-                                    data-bootstro-title="{{ _('Even more!') }}"
-                                data-bootstro-content="{{ _('You can <strong>sort</strong>, <strong>filter</strong> search reasults or choose a translation, you can as well choose a recitator!') }}"
-                                data-bootstro-width="400px"
-                                data-bootstro-placement='top' data-bootstro-step='2'>
+                            <div class="advanced-search text-center" data-toggle="tooltip">
                                     <a class="text-center show_hide">
                                         <i class="icon-wrench"></i>
                                         {{ _("Advanced Search") }} [+]

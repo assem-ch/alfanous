@@ -19,6 +19,17 @@ $(document).ready(function(){
             }
         });
     });
+        $('.show_hide_options').click(function(){
+        $(".slidingFormOptions").slideToggle(function() {
+            var text = $('.show_hide_options').html();
+            if($('.slidingForm').is(":visible")){
+                $('.show_hide_options').html(text.replace('+', '-'));
+            }
+            else {
+                $('.show_hide_options').html(text.replace('-', '+'));
+            }
+        });
+    });
 
     $(".aya_details").hide();
     

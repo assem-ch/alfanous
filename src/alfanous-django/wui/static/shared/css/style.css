@@ -89,7 +89,7 @@ span.label a:hover {
     display:none;
 }
 
-.show_hide_aya_details:hover, .show_hide:hover {
+.show_hide_aya_details:hover, .show_hide:hover, .show_hide_options {
   text-decoration: none;
 }
 
