@@ -157,7 +157,7 @@ def results(request, unit="aya"):
 
   response = render_to_response(mytemplate, context)
   if results["error"]["status"] != 0 or results["search"]["interval"]["total"]:
-      response.status_code= 404
+      response.status_code= 204
 
   return response
 
