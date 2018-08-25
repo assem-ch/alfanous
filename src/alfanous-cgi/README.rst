@@ -15,7 +15,7 @@ Terms of use
 *  We highly recommend to describe clearly somewhere in your application the relation to the whole Alfanous project, such as an about button.
 *  Art works you may need are available here_, the Art is licenced with AGPL license.
 
-.. _here: http://www.alfanous.org/art/
+.. _here: http://art.alfanous.org/
 
 -----------
 Limitations
@@ -33,7 +33,7 @@ Examples
 --------
 *  `http://www.alfanous.org/jos2?action=search&unit=aya&query=الحمد&highlight=bbcode&sortedby=tanzil&page=2&traduction=1&fuzzy=True`
 *  http://www.alfanous.org/jos2?action=show&query=recitations
-*  http://www.alfanous.org/jos2?action=show&queryfields
+*  http://www.alfanous.org/jos2?action=show&query=fields
 *  http://www.alfanous.org/jos2?action=show&query=All
 *  http://www.alfanous.org/jos2?action=show&query=translations 
 *  http://www.alfanous.org/jos2?action=show&query=errors

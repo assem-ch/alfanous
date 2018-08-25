@@ -1,4 +1,3 @@
-    **note** This project needs more contributors and/or funding. If you like it, see `how you can help? <https://github.com/Alfanous-team/alfanous/blob/master/FAQ.rst#how-you-can-help>`_.
 
 * .. image:: https://badges.gitter.im/Alfanous-team/alfanous.svg
         :alt: Join the chat at https://gitter.im/Alfanous-team/alfanous
@@ -7,7 +6,6 @@
   .. image:: https://badge.waffle.io/Alfanous-team/alfanous.png?label=ready&title=Ready 
         :target: https://waffle.io/Alfanous-team/alfanous
         :alt: 'Stories in Ready'
-
 
 
 * .. image:: https://img.shields.io/pypi/v/alfanous.svg
@@ -19,8 +17,6 @@
   .. image:: https://landscape.io/github/Alfanous-team/alfanous/master/landscape.svg
         :target: https://landscape.io/github/Alfanous-team/alfanous
 
-* .. image:: https://img.shields.io/sourceforge/dm/alfanous.svg
-        :target: https://sourceforge.net/projects/alfanous
   
 
 
@@ -44,7 +40,7 @@ Alfanous understands the complex nature of the Arabic language and thus offers e
 :IRC: #alfanous @ freenode
 :Website: `Alfanous.org <http://www.alfanous.org/>`_
 :Doc: `Readthedocs <http://alfanous.readthedocs.org/en/latest/>`_
-:Feedbacks: `Alfanous Community Feedbacks <http://feedback.alfanous.org/>`_
+:Feedbacks: `Alfanous Community Feedbacks <https://github.com/Alfanous-team/alfanous/issues>`_
 :Accounts: `@Facebook <https://www.facebook.com/alfanous>`_ `@Twitter <https://twitter.com/alfanous>`_ `@GooglePlus <https://plus.google.com/111305625425237630318>`_ 
         | `@Sourceforge <http://sourceforge.net/projects/alfanous/>`_ `@Launchpad <http://www.launchpad.net/alfanous/>`_
 

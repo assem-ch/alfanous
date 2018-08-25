@@ -72,15 +72,6 @@ $(document).ready(function(){
         
     });
 
-    $('#footer-link-jos2').popover(
-    {
-        html:true,
-        title:'<span class="popoverInnerText">About JOS2<span>',
-        animation: true,
-        content: function() {
-            return $('#popoverInner').html();
-        },
-    });
 
     $('select').selectpicker();
 
@@ -130,5 +121,5 @@ function get_results (param) { // this function will be used to require suggesti
 function show_results (json, param) {       }
 
 function addto_searchbar(){
-	window.external.AddSearchProvider("/static/alfanous-opensearch.xml");
+	window.external.AddSearchProvider("/opensearch.xml");
 }
