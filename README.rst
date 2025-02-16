@@ -1,25 +1,3 @@
-
-* .. image:: https://badges.gitter.im/Alfanous-team/alfanous.svg
-        :alt: Join the chat at https://gitter.im/Alfanous-team/alfanous
-        :target: https://gitter.im/Alfanous-team/alfanous?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge 
- 
-  .. image:: https://badge.waffle.io/Alfanous-team/alfanous.png?label=ready&title=Ready 
-        :target: https://waffle.io/Alfanous-team/alfanous
-        :alt: 'Stories in Ready'
-
-
-* .. image:: https://img.shields.io/pypi/v/alfanous.svg
-        :target: https://pypi.python.org/pypi/alfanous
-
-  .. image:: https://travis-ci.org/Alfanous-team/alfanous.png?branch=master
-            :target: https://travis-ci.org/Alfanous-team/alfanous
-
-  .. image:: https://landscape.io/github/Alfanous-team/alfanous/master/landscape.svg
-        :target: https://landscape.io/github/Alfanous-team/alfanous
-
-  
-
-
 ================
 Alfanous Project
 ================
